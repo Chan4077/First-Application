@@ -34,7 +34,7 @@
 
 /* Begin PBXFileReference section */
 		CCE6F5C81D3FAFDF00C371CD /* MyFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCE6F5CB1D3FAFDF00C371CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCE6F5CB1D3FAFDF00C371CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCE6F5CD1D3FAFDF00C371CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CCE6F5CF1D3FAFDF00C371CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCE6F5D21D3FAFDF00C371CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -497,6 +497,7 @@
 				CCE6F5EF1D3FAFDF00C371CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCE6F5F01D3FAFDF00C371CD /* Build configuration list for PBXNativeTarget "MyFirstAppTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +506,7 @@
 				CCE6F5F21D3FAFDF00C371CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCE6F5F31D3FAFDF00C371CD /* Build configuration list for PBXNativeTarget "MyFirstAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +515,7 @@
 				CCE6F5F51D3FAFDF00C371CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

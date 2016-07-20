@@ -9,7 +9,16 @@
 import Cocoa
 
 class ViewController: NSViewController {
+    @IBAction func handleName(_ sender: AnyObject) {
+        helloWorld.stringValue = "Hello \(nameInput.stringValue)!"
+    }
 
+    @IBAction func quitApp(_ sender: AnyObject) {
+        print("Application quitting...")
+        exit(0);
+    }
+    @IBOutlet weak var helloWorld: NSTextField!
+    @IBOutlet weak var nameInput: NSTextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,4 +33,3 @@ class ViewController: NSViewController {
 
 
 }
-
