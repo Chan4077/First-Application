@@ -9,6 +9,8 @@
 import Cocoa
 
 class ViewController: NSViewController {
+    @IBAction func settingsActn(_ sender: AnyObject) {
+    }
     @IBAction func handleName(_ sender: AnyObject) {
         helloWorld.stringValue = "Hello \(nameInput.stringValue)!"
     }
