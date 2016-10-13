@@ -2,7 +2,13 @@
 <html ng-app="MyFirstApp">
 <head>
 <!--Import Angular-->
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+<!-- Angular Material requires Angular.js Libraries -->
+	<script src="/js/angular.min.js"></script>
+	<script src="/js/angular-animate.min.js"></script>
+	<script src="/js/angular-aria.min.js"></script>
+	<script src="/js/angular-messages.min.js"></script>
+	<!-- Angular Material Library -->
+	<script src="/js/angular-material.min.js"></script>
   <title>Projects -> MyFirstApp</title>
 <!--Import Fonts-->
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -10,7 +16,9 @@
   <script src="app.js"></script>
 </head>
 <body>
+  <md-content>
   <h1>MyFirstApp</h1>
   <a href="https://github.com/Chan4077/MyFirstApp" class="preview"><h2>Preview on Github</h2></a>
+  </md-content>
 </body>
 </html>
