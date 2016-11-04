@@ -1,4 +1,4 @@
-var app = angular.module('MyFirstApp', ['ngMaterial']);
+var app = angular.module('MyFirstApp', ['ngAnimate', 'ngAria', 'ngMaterial', 'ngMessages']);
 // Config
 app.config(function($log) {
   $log.info('Successfully initialized!');
